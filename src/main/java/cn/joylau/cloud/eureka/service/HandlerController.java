@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * fa.liu@gtafe.com
  */
 @RestController
-public class ComputeController {
+public class HandlerController {
     private final Logger logger = Logger.getLogger(getClass());
     @Autowired
     private DiscoveryClient client;
